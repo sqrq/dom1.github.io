@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom1</title>
+    <style>
+        .div1{
+        grid-area: imggg;
+    }
+    .div2{
+        grid-area: info;
+    }
+    .div3{
+        grid-area: main;
+    }
+    .div4{
+        grid-area: cett;
+    }
+
+    .grid-container{
+       
+       display: grid;
+       grid-template-areas: 
+           'imggg imggg imggg imggg info info'
+           'main main main cett cett cett '
+           ;}
+        .img{
+            
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 50%;
+            text-align: center;
+            display: block;
+   margin-left: auto;
+   margin-right: auto;
+  
+        }
+        .square{
+            height: 100px;
+    width: 100px;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+    <div class="div1">
+        <img class="img"  class="center" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/46a5858a-a6b2-451a-91a7-b66b61e6eb42/d6ocgdq-89003247-a6a0-4c5c-be12-96f974cf5399.jpg/v1/fill/w_810,h_986,q_75,strp/thane_krios_by_haddrian-d6ocgdq.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi80NmE1ODU4YS1hNmIyLTQ1MWEtOTFhNy1iNjZiNjFlNmViNDIvZDZvY2dkcS04OTAwMzI0Ny1hNmEwLTRjNWMtYmUxMi05NmY5NzRjZjUzOTkuanBnIiwid2lkdGgiOiI8PTgxMCIsImhlaWdodCI6Ijw9OTg2In1dXX0.YSNO_qTv3gB8ciAu4dEn7bUH7X63OPf1iywqmGF5bFk" alt="">
+        <hr>
+    </div>
+    <!-- div1end-->
+    <div class="div2">
+    <h1>John Doe</h1>
+    <h4><marquee behavior="scroll" direction="right">Full stack developer</marquee></h4>
+    <hr>
+    <p>
+        <h3><span style="text-decoration: underline;"> Adress</span> <i> <span class="square">142536</span>Lyons Valley Rd Jamul</i>
+        <h3><span style="text-decoration: underline;">Phone number</span> <i> (234)636444</i></h3>
+        <h3><span style="text-decoration: underline;"> Email</span>  <i><a href="#">email@gmail,com</a></i></h3>
+    </p>
+    </div>
+     <!-- div2end-->
+    <div class="div3">
+        <p><b>Lorem ipsum</b>  dolor sit amet consectetur adipisicing elit. <mark>voluptates odio quaerat labore</mark>  sed asperiores, 
+            illo numquam obcaecati. Lorem ipsum dolor sit amet consectetur adipisicing elit. officia corporis fugit ipsa excepturi esse commodi maiores porro reiciendis debitis quod, asperiores saepe.
+
+            esse assumenda reiciendis animi <i><span style="text-decoration: underline;">doloribus</span></i>  </p>
+            
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente voluptates odio quaerat labore sunt sed asperiores, 
+                <mark>llo numquam obcaecati. Voluptate</mark> v adipisicing elit. Ihic neque alias tenetur commodi est modi, maxime vitae, eum esse! Architecto aliquam ea ut vero veritatis. esse assumenda reiciendis animi dignissimos. </p>
+    </div>
+    <div class="div4">
+
+    </div>
+</div>
+      <!-- div3end-->
+</body>
+</html>
